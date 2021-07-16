@@ -15,7 +15,7 @@ export class AlbumService {
   }
 
   public getAlbums()  {
-    return albumsData;
+    return this.sortList(albumsData);
   }
 
   public getAlbum(artist:string){

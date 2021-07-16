@@ -1,39 +1,39 @@
 [
     {
-        "artworkUrl60":"https://educanimando.com/wp-content/uploads/2016/02/tipografia_buchstabe_a.jpg",
-        "collectionName": "A",
-        "artistName": "Pepe",
-        "collectionPrice":  0
+        "artworkUrl60":"https://images.genius.com/45652c8a4ce1fbb4e03b2d2b6158d605.1000x1000x1.jpg",
+        "collectionName": "Blurryface ",
+        "artistName": "Twenty One Pilots",
+        "collectionPrice":  14
+    },
+    {
+        "artworkUrl60":"https://i1.pngguru.com/preview/713/79/725/twenty-one-pilots-trench-album-twenty-one-pilots-trench-album-cover-png-clipart.jpg",
+        "collectionName": "TRENCH",
+        "artistName": "Twenty One Pilots",
+        "collectionPrice":  15
+    },
+    {
+        "artworkUrl60":"https://img.discogs.com/GNrYs0qCFIq4DgmVVYWgefxV2Vs=/fit-in/600x595/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-888874-1169573807.jpeg.jpg",
+        "collectionName": "Toxicity",
+        "artistName": "System of a Down",
+        "collectionPrice":  25
+    },
+    {
+        "artworkUrl60":"https://upload.wikimedia.org/wikipedia/en/0/0c/Linkin_Park_Meteora_Album_Cover.jpg",
+        "collectionName": "Meteora",
+        "artistName": "Linkin Park",
+        "collectionPrice":  37
+    },
+    {
+        "artworkUrl60":"https://i.ebayimg.com/images/i/131724336682-0-1/s-l1000.jpg",
+        "collectionName": "Night Visions",
+        "artistName": "Imagine Dragons",
+        "collectionPrice":  22
     },
     {
         "artworkUrl60":"",
-        "collectionName": "B",
-        "artistName": "Esteban",
-        "collectionPrice":  0
-    },
-    {
-        "artworkUrl60":"",
-        "collectionName": "C",
-        "artistName": "C",
-        "collectionPrice":  0
-    },
-    {
-        "artworkUrl60":"",
-        "collectionName": "D",
-        "artistName": "D",
-        "collectionPrice":  0
-    },
-    {
-        "artworkUrl60":"",
-        "collectionName": "Z",
-        "artistName": "Z",
-        "collectionPrice":  0
-    },
-    {
-        "artworkUrl60":"",
-        "collectionName": "F",
-        "artistName": "F",
-        "collectionPrice":  0
+        "collectionName": "No Need to Argue",
+        "artistName": "Cranberries",
+        "collectionPrice":  14
     }
 
 ]
