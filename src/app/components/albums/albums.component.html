@@ -3,3 +3,25 @@
     <input type="text"  [(ngModel)]="nameFiltered">
 </div>
 <button type="button" (click)="searchAuthos()">Search</button>
+
+<table >
+        <thead >
+          <tr>
+            <th scope="col">Image Logo</th>
+            <th scope="col">Album</th>
+            <th scope="col">Artist</th>
+            <th scope="col">Price</th>
+            <th></th>
+    
+        </thead>
+        <tbody>
+          <tr *ngFor="let album of albums">
+            
+            <td><h6>{{album.artworkUrl60}}</h6></td>
+            <td><h6>{{album.collectionName}}</h6></td>
+            <td><h6>{{album.artistName}}</h6></td>
+            <td><h6>{{album.collectionPrice}}</h6></td>
+    
+          </tr>
+        </tbody>
+      </table>

@@ -19,8 +19,8 @@ export class AlbumsComponent implements OnInit {
     public albumService: AlbumService
   ) { }
 
-  ngOnInit(): void {
-    
+  async ngOnInit() {
+    this.albums = this.albumService.getAlbums();
   }
 
   searchAuthos()

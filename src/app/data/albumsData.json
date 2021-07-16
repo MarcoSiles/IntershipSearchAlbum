@@ -1,0 +1,39 @@
+[
+    {
+        "artworkUrl60":"https://educanimando.com/wp-content/uploads/2016/02/tipografia_buchstabe_a.jpg",
+        "collectionName": "A",
+        "artistName": "A",
+        "collectionPrice":  0
+    },
+    {
+        "artworkUrl60":"",
+        "collectionName": "B",
+        "artistName": "B",
+        "collectionPrice":  0
+    },
+    {
+        "artworkUrl60":"",
+        "collectionName": "C",
+        "artistName": "C",
+        "collectionPrice":  0
+    },
+    {
+        "artworkUrl60":"",
+        "collectionName": "D",
+        "artistName": "D",
+        "collectionPrice":  0
+    },
+    {
+        "artworkUrl60":"",
+        "collectionName": "Z",
+        "artistName": "Z",
+        "collectionPrice":  0
+    },
+    {
+        "artworkUrl60":"",
+        "collectionName": "F",
+        "artistName": "F",
+        "collectionPrice":  0
+    }
+
+]
