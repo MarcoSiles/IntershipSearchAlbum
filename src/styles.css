@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css"; 
+.card-img {
+    width: 120px;
+    height:120px;
+}
+.search-input{
+    padding:auto;
+}
+
+nav{  
+    background-color: #eeeeee;  
+}
+
+thead{
+    background-color: #b1b1b1;
+}
+
+
+.serch-div{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.center-title {
+    text-align: center;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 50px ;
+    color: #b363a1;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+.img-logo{
+    border: none;
+    background:none;
+    outline: none; 
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    float:left;
+}
+button{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+

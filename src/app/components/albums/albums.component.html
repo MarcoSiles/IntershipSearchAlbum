@@ -1,0 +1,38 @@
+
+<div class="container serch-div">
+  <div class="col-xs-7">
+    <label>Artist's Name:</label>
+    <input type="text" class="form-control " [(ngModel)]="nameFiltered">
+  </div>
+  <div>
+    <button type="button" class="btn btn-outline-secondary" (click)="searchAuthos()"><label>Search</label></button>
+    <button type="button" class="btn btn-outline-secondary" (click)="sortAlbums()">
+      <label *ngIf="sortOrder">A-Z</label>
+      <label *ngIf="!sortOrder">Z-A</label>
+    </button>
+  </div>
+
+</div>
+<div class="container">
+<table class="table table-striped ">
+  <thead class="thead-light">
+          <tr>
+            <th scope="col">Image Logo</th>
+            <th scope="col">Artist</th>
+            <th scope="col">Album</th>
+            <th scope="col">Price</th>
+           
+    
+  </thead>
+  <tbody>
+          <tr  *ngFor="let album of albums">
+            <td *ngIf="album.artworkUrl60!=''"><img class="card-img" src={{album.artworkUrl60}} alt="Card image cap" ></td>
+            <td *ngIf="album.artworkUrl60==''"><img class="card-img" src="http://www.clker.com/cliparts/2/7/2/0/1516232185375465764cliparts-point-interrogation.jpg" ></td>
+            <td><h6>{{album.artistName}}</h6></td>
+            <td><h6>{{album.collectionName}}</h6></td>
+            <td><h6>{{album.collectionPrice}}</h6></td>
+    
+          </tr>
+  </tbody>
+</table>
+</div>
