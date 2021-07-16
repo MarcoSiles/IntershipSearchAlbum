@@ -12,7 +12,7 @@ export class AlbumsComponent implements OnInit {
 
   albums: Album[]=[];
   nameFiltered = "";
-
+  sortOrder:boolean=true;
   constructor(
     public router: Router,
     private route: ActivatedRoute,
@@ -25,6 +25,14 @@ export class AlbumsComponent implements OnInit {
 
   searchAuthos()
   {
-    console.log(this.nameFiltered);
+    this.albums=this.albumService.getAlbum(this.nameFiltered);
   }
+
+  sortAlbums()
+  {
+    this.sortOrder=!this.sortOrder;
+    this.albumService.sortOrderAlbums(this.sortOrder);
+  }
+
+
 }
